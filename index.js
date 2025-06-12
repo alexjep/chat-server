@@ -27,5 +27,5 @@ io.on("connection", (socket) => {
 });
 
 server.listen(3001, () => {
-  console.log("Сервер запущен на http://localhost:${PORT}");
+  console.log(`Сервер запущен на http://localhost:${PORT}`);
 });
